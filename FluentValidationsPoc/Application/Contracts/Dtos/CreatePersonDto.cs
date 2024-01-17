@@ -1,9 +1,6 @@
-﻿namespace FluentValidationsPoc;
-
-internal class PersonDto
+﻿namespace Contracts.Dtos;
+public class CreatePersonDto
 {
-    public Guid Id { get; set; }
-
     public string? Name { get; set; }
 
     public DateTime BirthDate { get; set; }
